@@ -4,6 +4,8 @@ import pandas as pd
 st.balloons()
 st.markdown("# Data Evaluation App")
 
+st.secrets["DB_USERNAME"]
+
 st.write("We are so glad to see you here. ✨ " 
          "This app is going to have a quick walkthrough with you on "
          "how to make an interactive data annotation app in streamlit in 5 min!")
